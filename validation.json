@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "validated_at": "2026-11-05T20:01:31.979Z",
-  "index_version": "20261105T200119Z",
-  "passed": 59,
+  "validated_at": "2026-11-05T21:09:25.402Z",
+  "index_version": "20261105T210913Z",
+  "passed": 61,
   "errors": 0,
   "warnings": 4,
   "checks": [
@@ -88,63 +88,70 @@
       "name": "nyc_active_childcare within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.0 days since last harvest (daily)"
+      "detail": "0.1 days since last harvest (daily)"
+    },
+    {
+      "group": "freshness",
+      "name": "nyc_nta_names within cadence",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0.0 days since last harvest (annual)"
     },
     {
       "group": "freshness",
       "name": "nys_ocfs_regulated_programs within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.0 days since last harvest (daily)"
+      "detail": "0.1 days since last harvest (daily)"
     },
     {
       "group": "freshness",
       "name": "nyc_pluto within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.0 days since last harvest (per_release)"
+      "detail": "0.1 days since last harvest (per_release)"
     },
     {
       "group": "freshness",
       "name": "nyc_dob_violations within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.0 days since last harvest (daily)"
+      "detail": "0.1 days since last harvest (daily)"
     },
     {
       "group": "freshness",
       "name": "nyc_dob_safety_violations within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.0 days since last harvest (daily)"
+      "detail": "0.1 days since last harvest (daily)"
     },
     {
       "group": "freshness",
       "name": "nyc_dob_ecb_violations within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.0 days since last harvest (daily)"
+      "detail": "0.1 days since last harvest (daily)"
     },
     {
       "group": "freshness",
       "name": "nyc_dob_permits_bis within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.0 days since last harvest (daily)"
+      "detail": "0.1 days since last harvest (daily)"
     },
     {
       "group": "freshness",
       "name": "nyc_dob_now_permits within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.0 days since last harvest (daily)"
+      "detail": "0.1 days since last harvest (daily)"
     },
     {
       "group": "freshness",
       "name": "nyc_dob_now_jobs within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.0 days since last harvest (daily)"
+      "detail": "0.1 days since last harvest (daily)"
     },
     {
       "group": "freshness",
@@ -158,7 +165,7 @@
       "name": "us_census_county_codes within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.0 days since last harvest (annual)"
+      "detail": "0.1 days since last harvest (annual)"
     },
     {
       "group": "freshness",
@@ -184,6 +191,13 @@
     {
       "group": "sources",
       "name": "nyc_active_childcare last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success"
+    },
+    {
+      "group": "sources",
+      "name": "nyc_nta_names last harvest",
       "ok": true,
       "severity": "error",
       "detail": "success"
