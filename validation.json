@@ -1,0 +1,451 @@
+{
+  "ok": true,
+  "validated_at": "2026-11-05T20:01:31.979Z",
+  "index_version": "20261105T200119Z",
+  "passed": 59,
+  "errors": 0,
+  "warnings": 4,
+  "checks": [
+    {
+      "group": "integrity",
+      "name": "unique facility ids",
+      "ok": true,
+      "severity": "error",
+      "detail": "0 duplicates"
+    },
+    {
+      "group": "integrity",
+      "name": "facility shards exist",
+      "ok": true,
+      "severity": "error",
+      "detail": "0 missing"
+    },
+    {
+      "group": "integrity",
+      "name": "operator links resolve",
+      "ok": true,
+      "severity": "error",
+      "detail": "0 broken"
+    },
+    {
+      "group": "integrity",
+      "name": "building links resolve",
+      "ok": true,
+      "severity": "error",
+      "detail": "0 broken"
+    },
+    {
+      "group": "integrity",
+      "name": "zip links resolve",
+      "ok": true,
+      "severity": "error",
+      "detail": "0 broken"
+    },
+    {
+      "group": "integrity",
+      "name": "county links resolve",
+      "ok": true,
+      "severity": "error",
+      "detail": "0 broken"
+    },
+    {
+      "group": "integrity",
+      "name": "violation type links resolve",
+      "ok": true,
+      "severity": "error",
+      "detail": "0 broken"
+    },
+    {
+      "group": "counts",
+      "name": "occurrences = sum over types",
+      "ok": true,
+      "severity": "error",
+      "detail": "16204 vs 16204"
+    },
+    {
+      "group": "counts",
+      "name": "facility count matches manifest",
+      "ok": true,
+      "severity": "error",
+      "detail": "20357 vs 20357"
+    },
+    {
+      "group": "counts",
+      "name": "inspection count matches manifest",
+      "ok": true,
+      "severity": "error",
+      "detail": "16189 vs 16189"
+    },
+    {
+      "group": "integrity",
+      "name": "one canonical entity per source-native id",
+      "ok": true,
+      "severity": "error",
+      "detail": "0"
+    },
+    {
+      "group": "freshness",
+      "name": "nyc_active_childcare within cadence",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0.0 days since last harvest (daily)"
+    },
+    {
+      "group": "freshness",
+      "name": "nys_ocfs_regulated_programs within cadence",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0.0 days since last harvest (daily)"
+    },
+    {
+      "group": "freshness",
+      "name": "nyc_pluto within cadence",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0.0 days since last harvest (per_release)"
+    },
+    {
+      "group": "freshness",
+      "name": "nyc_dob_violations within cadence",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0.0 days since last harvest (daily)"
+    },
+    {
+      "group": "freshness",
+      "name": "nyc_dob_safety_violations within cadence",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0.0 days since last harvest (daily)"
+    },
+    {
+      "group": "freshness",
+      "name": "nyc_dob_ecb_violations within cadence",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0.0 days since last harvest (daily)"
+    },
+    {
+      "group": "freshness",
+      "name": "nyc_dob_permits_bis within cadence",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0.0 days since last harvest (daily)"
+    },
+    {
+      "group": "freshness",
+      "name": "nyc_dob_now_permits within cadence",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0.0 days since last harvest (daily)"
+    },
+    {
+      "group": "freshness",
+      "name": "nyc_dob_now_jobs within cadence",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0.0 days since last harvest (daily)"
+    },
+    {
+      "group": "freshness",
+      "name": "nyc_property_address_directory harvested",
+      "ok": false,
+      "severity": "warning",
+      "detail": "never succeeded"
+    },
+    {
+      "group": "freshness",
+      "name": "us_census_county_codes within cadence",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0.0 days since last harvest (annual)"
+    },
+    {
+      "group": "freshness",
+      "name": "us_census_acs5 harvested",
+      "ok": false,
+      "severity": "warning",
+      "detail": "never succeeded"
+    },
+    {
+      "group": "freshness",
+      "name": "us_census_tiger harvested",
+      "ok": false,
+      "severity": "warning",
+      "detail": "never succeeded"
+    },
+    {
+      "group": "freshness",
+      "name": "hud_usps_zip_crosswalk harvested",
+      "ok": false,
+      "severity": "warning",
+      "detail": "never succeeded"
+    },
+    {
+      "group": "sources",
+      "name": "nyc_active_childcare last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success"
+    },
+    {
+      "group": "sources",
+      "name": "nys_ocfs_regulated_programs last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success"
+    },
+    {
+      "group": "sources",
+      "name": "nyc_dohmh_inspections_historical last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success"
+    },
+    {
+      "group": "sources",
+      "name": "nyc_dohmh_inspections_community last harvest",
+      "ok": true,
+      "severity": "warning",
+      "detail": "unavailable: Resource API error: HTTP 500 for https://data.cityofnewyork.us/resource/ycmv-5rrz.json?$limit=1: {\n  \"error\" : true,\n  \"message\" : \"Internal error\",\n  \"status\" : 500\n}\n"
+    },
+    {
+      "group": "sources",
+      "name": "nyc_pluto last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success"
+    },
+    {
+      "group": "sources",
+      "name": "nyc_dob_violations last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success"
+    },
+    {
+      "group": "sources",
+      "name": "nyc_dob_safety_violations last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success"
+    },
+    {
+      "group": "sources",
+      "name": "nyc_dob_ecb_violations last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success"
+    },
+    {
+      "group": "sources",
+      "name": "nyc_dob_permits_bis last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success"
+    },
+    {
+      "group": "sources",
+      "name": "nyc_dob_now_permits last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success"
+    },
+    {
+      "group": "sources",
+      "name": "nyc_dob_now_jobs last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success"
+    },
+    {
+      "group": "sources",
+      "name": "nyc_property_address_directory last harvest",
+      "ok": true,
+      "severity": "warning",
+      "detail": "unavailable: Dataset has no tabular columns (file attachment or non-tabular view)."
+    },
+    {
+      "group": "sources",
+      "name": "us_census_county_codes last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success"
+    },
+    {
+      "group": "sources",
+      "name": "us_census_acs5 last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "skipped: Needs credentials: set CENSUS_API_KEY"
+    },
+    {
+      "group": "sources",
+      "name": "us_census_geocoder last harvest",
+      "ok": true,
+      "severity": "warning",
+      "detail": "skipped: Harvest mode 'on_demand' is not a bulk harvest (research tool or planned)."
+    },
+    {
+      "group": "sources",
+      "name": "us_census_tiger last harvest",
+      "ok": true,
+      "severity": "warning",
+      "detail": "skipped: Harvest mode 'bulk' is not a bulk harvest (research tool or planned)."
+    },
+    {
+      "group": "sources",
+      "name": "hud_usps_zip_crosswalk last harvest",
+      "ok": true,
+      "severity": "warning",
+      "detail": "skipped: Needs HUD_API_TOKEN"
+    },
+    {
+      "group": "sources",
+      "name": "sec_edgar last harvest",
+      "ok": true,
+      "severity": "warning",
+      "detail": "skipped: Harvest mode 'research_only' is not a bulk harvest (research tool or planned)."
+    },
+    {
+      "group": "sources",
+      "name": "epa_echo last harvest",
+      "ok": true,
+      "severity": "warning",
+      "detail": "skipped: Harvest mode 'research_only' is not a bulk harvest (research tool or planned)."
+    },
+    {
+      "group": "sources",
+      "name": "fema_nfhl last harvest",
+      "ok": true,
+      "severity": "warning",
+      "detail": "skipped: Harvest mode 'research_only' is not a bulk harvest (research tool or planned)."
+    },
+    {
+      "group": "sources",
+      "name": "usaspending last harvest",
+      "ok": true,
+      "severity": "warning",
+      "detail": "skipped: Harvest mode 'research_only' is not a bulk harvest (research tool or planned)."
+    },
+    {
+      "group": "sources",
+      "name": "sam_gov last harvest",
+      "ok": true,
+      "severity": "warning",
+      "detail": "skipped: Needs SAM_API_KEY"
+    },
+    {
+      "group": "reference",
+      "name": "DC37595 present",
+      "ok": true,
+      "severity": "error",
+      "detail": null
+    },
+    {
+      "group": "reference",
+      "name": "name",
+      "ok": true,
+      "severity": "error",
+      "detail": "BRIGHT HORIZONS AT DUMBO"
+    },
+    {
+      "group": "reference",
+      "name": "ZIP 11201",
+      "ok": true,
+      "severity": "error",
+      "detail": "11201"
+    },
+    {
+      "group": "reference",
+      "name": "Kings County",
+      "ok": true,
+      "severity": "error",
+      "detail": "36047"
+    },
+    {
+      "group": "reference",
+      "name": "state NY",
+      "ok": true,
+      "severity": "error",
+      "detail": null
+    },
+    {
+      "group": "reference",
+      "name": "permit 104725",
+      "ok": true,
+      "severity": "error",
+      "detail": "104725"
+    },
+    {
+      "group": "reference",
+      "name": "building BIN 3398406",
+      "ok": true,
+      "severity": "error",
+      "detail": "3398406"
+    },
+    {
+      "group": "reference",
+      "name": "operator Bright Horizons Children's Centers",
+      "ok": true,
+      "severity": "error",
+      "detail": "BRIGHT HORIZONS CHILDREN'S CENTERS LLC"
+    },
+    {
+      "group": "reference",
+      "name": "operator shard links back",
+      "ok": true,
+      "severity": "error",
+      "detail": null
+    },
+    {
+      "group": "reference",
+      "name": "ZIP shard links back",
+      "ok": true,
+      "severity": "error",
+      "detail": null
+    },
+    {
+      "group": "reference",
+      "name": "county shard links back",
+      "ok": true,
+      "severity": "error",
+      "detail": null
+    },
+    {
+      "group": "reference",
+      "name": "building shard links back",
+      "ok": true,
+      "severity": "error",
+      "detail": null
+    },
+    {
+      "group": "reference",
+      "name": "parcel (PLUTO) linked",
+      "ok": true,
+      "severity": "warning",
+      "detail": "3000367504 29 Front Street"
+    },
+    {
+      "group": "reference",
+      "name": "inspection history present (historical)",
+      "ok": true,
+      "severity": "warning",
+      "detail": "6 inspections"
+    },
+    {
+      "group": "reference",
+      "name": "inspections labelled historical",
+      "ok": true,
+      "severity": "error",
+      "detail": null
+    },
+    {
+      "group": "reference",
+      "name": "building DOB records linked",
+      "ok": true,
+      "severity": "warning",
+      "detail": "dob_violation:62 dob_safety_violation:29 dob_ecb_violation:51 dob_permit_bis:104 dob_now_permit:1 dob_now_job:2"
+    }
+  ]
+}
