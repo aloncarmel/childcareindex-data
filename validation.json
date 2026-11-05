@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "validated_at": "2026-11-05T21:09:25.402Z",
-  "index_version": "20261105T210913Z",
-  "passed": 61,
+  "validated_at": "2026-11-05T21:34:35.726Z",
+  "index_version": "20261105T213411Z",
+  "passed": 67,
   "errors": 0,
   "warnings": 4,
   "checks": [
@@ -60,21 +60,21 @@
       "name": "occurrences = sum over types",
       "ok": true,
       "severity": "error",
-      "detail": "16204 vs 16204"
+      "detail": "133215 vs 133215"
     },
     {
       "group": "counts",
       "name": "facility count matches manifest",
       "ok": true,
       "severity": "error",
-      "detail": "20357 vs 20357"
+      "detail": "34666 vs 34666"
     },
     {
       "group": "counts",
       "name": "inspection count matches manifest",
       "ok": true,
       "severity": "error",
-      "detail": "16189 vs 16189"
+      "detail": "173039 vs 173039"
     },
     {
       "group": "integrity",
@@ -159,6 +159,27 @@
       "ok": false,
       "severity": "warning",
       "detail": "never succeeded"
+    },
+    {
+      "group": "freshness",
+      "name": "tx_hhsc_operations within cadence",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0.0 days since last harvest (daily)"
+    },
+    {
+      "group": "freshness",
+      "name": "tx_hhsc_activities within cadence",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0.0 days since last harvest (daily)"
+    },
+    {
+      "group": "freshness",
+      "name": "tx_hhsc_noncompliance within cadence",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0.0 days since last harvest (daily)"
     },
     {
       "group": "freshness",
@@ -278,6 +299,27 @@
       "ok": true,
       "severity": "warning",
       "detail": "unavailable: Dataset has no tabular columns (file attachment or non-tabular view)."
+    },
+    {
+      "group": "sources",
+      "name": "tx_hhsc_operations last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success"
+    },
+    {
+      "group": "sources",
+      "name": "tx_hhsc_activities last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success"
+    },
+    {
+      "group": "sources",
+      "name": "tx_hhsc_noncompliance last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success"
     },
     {
       "group": "sources",
