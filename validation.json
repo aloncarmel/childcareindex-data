@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "validated_at": "2026-11-05T21:34:35.726Z",
-  "index_version": "20261105T213411Z",
-  "passed": 67,
+  "validated_at": "2026-11-06T09:38:51.463Z",
+  "index_version": "20261106T093826Z",
+  "passed": 74,
   "errors": 0,
   "warnings": 4,
   "checks": [
@@ -88,70 +88,70 @@
       "name": "nyc_active_childcare within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.1 days since last harvest (daily)"
+      "detail": "0.6 days since last harvest (daily)"
     },
     {
       "group": "freshness",
       "name": "nyc_nta_names within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.0 days since last harvest (annual)"
+      "detail": "0.5 days since last harvest (annual)"
     },
     {
       "group": "freshness",
       "name": "nys_ocfs_regulated_programs within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.1 days since last harvest (daily)"
+      "detail": "0.6 days since last harvest (daily)"
     },
     {
       "group": "freshness",
       "name": "nyc_pluto within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.1 days since last harvest (per_release)"
+      "detail": "0.6 days since last harvest (per_release)"
     },
     {
       "group": "freshness",
       "name": "nyc_dob_violations within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.1 days since last harvest (daily)"
+      "detail": "0.6 days since last harvest (daily)"
     },
     {
       "group": "freshness",
       "name": "nyc_dob_safety_violations within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.1 days since last harvest (daily)"
+      "detail": "0.6 days since last harvest (daily)"
     },
     {
       "group": "freshness",
       "name": "nyc_dob_ecb_violations within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.1 days since last harvest (daily)"
+      "detail": "0.6 days since last harvest (daily)"
     },
     {
       "group": "freshness",
       "name": "nyc_dob_permits_bis within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.1 days since last harvest (daily)"
+      "detail": "0.6 days since last harvest (daily)"
     },
     {
       "group": "freshness",
       "name": "nyc_dob_now_permits within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.1 days since last harvest (daily)"
+      "detail": "0.6 days since last harvest (daily)"
     },
     {
       "group": "freshness",
       "name": "nyc_dob_now_jobs within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.1 days since last harvest (daily)"
+      "detail": "0.6 days since last harvest (daily)"
     },
     {
       "group": "freshness",
@@ -165,28 +165,49 @@
       "name": "tx_hhsc_operations within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.0 days since last harvest (daily)"
+      "detail": "0.5 days since last harvest (daily)"
     },
     {
       "group": "freshness",
       "name": "tx_hhsc_activities within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.0 days since last harvest (daily)"
+      "detail": "0.5 days since last harvest (daily)"
     },
     {
       "group": "freshness",
       "name": "tx_hhsc_noncompliance within cadence",
       "ok": true,
       "severity": "warning",
+      "detail": "0.5 days since last harvest (daily)"
+    },
+    {
+      "group": "freshness",
+      "name": "tx_twc_subsidy_providers within cadence",
+      "ok": true,
+      "severity": "warning",
       "detail": "0.0 days since last harvest (daily)"
+    },
+    {
+      "group": "freshness",
+      "name": "tx_tda_cacfp_centers within cadence",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0.0 days since last harvest (quarterly)"
+    },
+    {
+      "group": "freshness",
+      "name": "tx_tda_cacfp_homes within cadence",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0.0 days since last harvest (quarterly)"
     },
     {
       "group": "freshness",
       "name": "us_census_county_codes within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.1 days since last harvest (annual)"
+      "detail": "0.6 days since last harvest (annual)"
     },
     {
       "group": "freshness",
@@ -317,6 +338,34 @@
     {
       "group": "sources",
       "name": "tx_hhsc_noncompliance last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success"
+    },
+    {
+      "group": "sources",
+      "name": "tx_twc_subsidy_providers last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success"
+    },
+    {
+      "group": "sources",
+      "name": "tx_twc_ccs_facilities last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success"
+    },
+    {
+      "group": "sources",
+      "name": "tx_tda_cacfp_centers last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success"
+    },
+    {
+      "group": "sources",
+      "name": "tx_tda_cacfp_homes last harvest",
       "ok": true,
       "severity": "error",
       "detail": "success"
