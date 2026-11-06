@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "validated_at": "2026-11-06T09:38:51.463Z",
-  "index_version": "20261106T093826Z",
-  "passed": 74,
+  "validated_at": "2026-11-06T17:51:28.779Z",
+  "index_version": "20261106T175102Z",
+  "passed": 86,
   "errors": 0,
   "warnings": 4,
   "checks": [
@@ -60,7 +60,7 @@
       "name": "occurrences = sum over types",
       "ok": true,
       "severity": "error",
-      "detail": "133215 vs 133215"
+      "detail": "151391 vs 151391"
     },
     {
       "group": "counts",
@@ -74,7 +74,7 @@
       "name": "inspection count matches manifest",
       "ok": true,
       "severity": "error",
-      "detail": "173039 vs 173039"
+      "detail": "197591 vs 197591"
     },
     {
       "group": "integrity",
@@ -88,70 +88,70 @@
       "name": "nyc_active_childcare within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.6 days since last harvest (daily)"
+      "detail": "0.9 days since last harvest (daily)"
     },
     {
       "group": "freshness",
       "name": "nyc_nta_names within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.5 days since last harvest (annual)"
+      "detail": "0.9 days since last harvest (annual)"
     },
     {
       "group": "freshness",
       "name": "nys_ocfs_regulated_programs within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.6 days since last harvest (daily)"
+      "detail": "0.9 days since last harvest (daily)"
     },
     {
       "group": "freshness",
       "name": "nyc_pluto within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.6 days since last harvest (per_release)"
+      "detail": "0.9 days since last harvest (per_release)"
     },
     {
       "group": "freshness",
       "name": "nyc_dob_violations within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.6 days since last harvest (daily)"
+      "detail": "0.9 days since last harvest (daily)"
     },
     {
       "group": "freshness",
       "name": "nyc_dob_safety_violations within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.6 days since last harvest (daily)"
+      "detail": "0.9 days since last harvest (daily)"
     },
     {
       "group": "freshness",
       "name": "nyc_dob_ecb_violations within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.6 days since last harvest (daily)"
+      "detail": "0.9 days since last harvest (daily)"
     },
     {
       "group": "freshness",
       "name": "nyc_dob_permits_bis within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.6 days since last harvest (daily)"
+      "detail": "0.9 days since last harvest (daily)"
     },
     {
       "group": "freshness",
       "name": "nyc_dob_now_permits within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.6 days since last harvest (daily)"
+      "detail": "0.9 days since last harvest (daily)"
     },
     {
       "group": "freshness",
       "name": "nyc_dob_now_jobs within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.6 days since last harvest (daily)"
+      "detail": "0.9 days since last harvest (daily)"
     },
     {
       "group": "freshness",
@@ -162,52 +162,87 @@
     },
     {
       "group": "freshness",
-      "name": "tx_hhsc_operations within cadence",
+      "name": "nyc_ccc_inspections within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.5 days since last harvest (daily)"
+      "detail": "0.2 days since last harvest (daily)"
     },
     {
       "group": "freshness",
-      "name": "tx_hhsc_activities within cadence",
-      "ok": true,
-      "severity": "warning",
-      "detail": "0.5 days since last harvest (daily)"
-    },
-    {
-      "group": "freshness",
-      "name": "tx_hhsc_noncompliance within cadence",
-      "ok": true,
-      "severity": "warning",
-      "detail": "0.5 days since last harvest (daily)"
-    },
-    {
-      "group": "freshness",
-      "name": "tx_twc_subsidy_providers within cadence",
+      "name": "nyc_hpd_violations within cadence",
       "ok": true,
       "severity": "warning",
       "detail": "0.0 days since last harvest (daily)"
     },
     {
       "group": "freshness",
+      "name": "nyc_hpd_vacate_orders within cadence",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0.0 days since last harvest (daily)"
+    },
+    {
+      "group": "freshness",
+      "name": "nyc_rodent_inspections within cadence",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0.0 days since last harvest (daily)"
+    },
+    {
+      "group": "freshness",
+      "name": "nyc_311_complaints within cadence",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0.0 days since last harvest (daily)"
+    },
+    {
+      "group": "freshness",
+      "name": "tx_hhsc_operations within cadence",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0.8 days since last harvest (daily)"
+    },
+    {
+      "group": "freshness",
+      "name": "tx_hhsc_activities within cadence",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0.8 days since last harvest (daily)"
+    },
+    {
+      "group": "freshness",
+      "name": "tx_hhsc_noncompliance within cadence",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0.8 days since last harvest (daily)"
+    },
+    {
+      "group": "freshness",
+      "name": "tx_twc_subsidy_providers within cadence",
+      "ok": true,
+      "severity": "warning",
+      "detail": "0.3 days since last harvest (daily)"
+    },
+    {
+      "group": "freshness",
       "name": "tx_tda_cacfp_centers within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.0 days since last harvest (quarterly)"
+      "detail": "0.3 days since last harvest (quarterly)"
     },
     {
       "group": "freshness",
       "name": "tx_tda_cacfp_homes within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.0 days since last harvest (quarterly)"
+      "detail": "0.3 days since last harvest (quarterly)"
     },
     {
       "group": "freshness",
       "name": "us_census_county_codes within cadence",
       "ok": true,
       "severity": "warning",
-      "detail": "0.6 days since last harvest (annual)"
+      "detail": "0.9 days since last harvest (annual)"
     },
     {
       "group": "freshness",
@@ -320,6 +355,41 @@
       "ok": true,
       "severity": "warning",
       "detail": "unavailable: Dataset has no tabular columns (file attachment or non-tabular view)."
+    },
+    {
+      "group": "sources",
+      "name": "nyc_ccc_inspections last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success: 5 centers failed to load"
+    },
+    {
+      "group": "sources",
+      "name": "nyc_hpd_violations last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success"
+    },
+    {
+      "group": "sources",
+      "name": "nyc_hpd_vacate_orders last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success"
+    },
+    {
+      "group": "sources",
+      "name": "nyc_rodent_inspections last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success"
+    },
+    {
+      "group": "sources",
+      "name": "nyc_311_complaints last harvest",
+      "ok": true,
+      "severity": "error",
+      "detail": "success"
     },
     {
       "group": "sources",
@@ -533,14 +603,28 @@
     },
     {
       "group": "reference",
-      "name": "inspection history present (historical)",
+      "name": "inspection history present",
       "ok": true,
       "severity": "warning",
-      "detail": "6 inspections"
+      "detail": "35 inspections"
     },
     {
       "group": "reference",
-      "name": "inspections labelled historical",
+      "name": "historical-dataset inspections labelled historical",
+      "ok": true,
+      "severity": "error",
+      "detail": null
+    },
+    {
+      "group": "reference",
+      "name": "current inspections present (Child Care Connect, last 12 months)",
+      "ok": true,
+      "severity": "warning",
+      "detail": "latest 2026-11-02"
+    },
+    {
+      "group": "reference",
+      "name": "no inspection dated in the future",
       "ok": true,
       "severity": "error",
       "detail": null
@@ -550,7 +634,7 @@
       "name": "building DOB records linked",
       "ok": true,
       "severity": "warning",
-      "detail": "dob_violation:62 dob_safety_violation:29 dob_ecb_violation:51 dob_permit_bis:104 dob_now_permit:1 dob_now_job:2"
+      "detail": "dob_violation:62 dob_safety_violation:29 dob_ecb_violation:51 dob_permit_bis:104 dob_now_permit:1 dob_now_job:2 hpd_violation:6 rodent_inspection:7 complaint_311:19"
     }
   ]
 }
